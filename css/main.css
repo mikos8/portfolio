@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  background-color: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.none {
+  display: none !important;
+}
+/*header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+
+  background-color: #556983;
+  background-image: url("./../img/header/header-bg.jpg");
+  background-size: cover; /*размер изображения зполнит только свое пространство*/
+  background-position: center;
+}
+
+.header-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 19px;
+
+  line-height: 150%;
+  text-align: center;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase; /*переводит текст в верхний регистр*/
+  color: #ffffff;
+}
+
+.header-arrow {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*portfolio*/
+
+.portfolio {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.portfolio-header {
+  margin: 0;
+  margin-bottom: 70px;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+.portfolio-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  margin-bottom: 30px;
+  padding: 20px;
+  max-width: 540px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card:last-child,
+.card:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.card-img {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  margin: 0;
+  margin-bottom: 13px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 130%;
+  color: #000000;
+}
+.card p {
+  font-size: 22px;
+  line-height: 130%;
+  color: #000000;
+  margin: 0;
+}
