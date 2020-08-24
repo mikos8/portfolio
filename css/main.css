@@ -152,7 +152,7 @@ body {
 
 .footer-icons-link {
   display: flex;
-
+  align-items: center;
 }
 
 .footer-icons p {
@@ -160,4 +160,8 @@ body {
   font-size: 22px;
   line-height: 1.3;
   color: #ffffff;
+}
+/*выбор элементов 1 уровень вложенности относительно указанного класса и выбор соседа слева * */
+.footer-icon-link > * + * {
+  margin-left: 30px;
 }
